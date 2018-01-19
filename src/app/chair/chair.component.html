@@ -1,0 +1,8 @@
+<h2>Chair name: {{chair.name}}</h2>
+<p>Legs: {{chair.legs}}</p>
+<h1><p>My chairs</p></h1>
+<ul>
+  <li *ngFor="let chair of chairs">
+      Name: {{chair.name}} Legs: {{chair.legs}}
+  </li>
+</ul>
